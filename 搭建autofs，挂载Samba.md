@@ -65,7 +65,7 @@ mkdir -p data/share
 
 - 启动samba服务
 ```bash
-service smbd restart
+service smbd restartubuntu
 ```
 
 - 然后配置/etc/auto.master 文件
