@@ -1,7 +1,7 @@
 # note
 
 ### 算法日常
- - #### 链表
+ - #### 链表 [题目源码](https://github.com/xaohuihui/algorithm_study/tree/master/linked)
    * [1.反转链表](算法日常/反转链表.md)
    * [2.环形链表](算法日常/环形链表)
    * [3. 链表节点两两交换](算法日常/链表节点两两交换.md)
