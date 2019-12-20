@@ -6,6 +6,8 @@
    * [2.环形链表](算法日常/环形链表)
    * [3. 链表节点两两交换](算法日常/链表节点两两交换.md)
    * [4. K个一组反转链表](算法日常/K个一组反转链表.md)
+  - #### 树  [题目源码](https://github.com/xaohuihui/algorithm_study/tree/master/tree)
+      * [1. 二叉树的常用遍历方式](算法日常/二叉树的遍历方法.md)
 
 ### python学习日常
   * [1.python常用组件使用](python常用组件使用.md)
