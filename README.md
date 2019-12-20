@@ -8,6 +8,7 @@
    * [4. K个一组反转链表](算法日常/K个一组反转链表.md)
   - #### 树  [题目源码](https://github.com/xaohuihui/algorithm_study/tree/master/tree)
       * [1. 二叉树的常用遍历方式](算法日常/二叉树的遍历方法.md)
+      * [2. 102.二叉树的层次遍历](算法日常/二叉树层次遍历.md)
 
 ### python学习日常
   * [1.python常用组件使用](python常用组件使用.md)
