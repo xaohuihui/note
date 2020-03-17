@@ -174,7 +174,9 @@ if "__name__" == "main":
 | qty berween 10 and 100 | filter = {"qty": {"$gte": 10, "$lte": 100}} |  |
 | item like "%p%" |  filter = {"item": {"$regex": "p"}}  |  **若是以p开头，"^p"; 若是以p结尾，"p$"**  |   
 | 若遇到{"name": 'z3', "child":[{"name": "zq", "age": 10}, {"name": "zw", "age": 11} ]}这样的数据类型，想要搜索列表中的数据| filter = {"name.name": "zq"} |
-| 排序，倒叙为-1，正序为1，以上面数据类型为例| sort({"name": 1, "name.age": -1 })
+| 排序，倒叙为-1，正序为1，以上面数据类型为例| query_result.sort("name", 1).sort( "name.age", -1)| 有多少个排序字段，加多少个sort方法|
+| 计算结果条数| query_result.count() | query_result为find方法等等执行完成的对象 |
+| 若想仅展示某些字段，或不返回某些字段| find(filter, {"_id": 0, "qty": 1})|find()的第一个参数是dict类型的检索条件，第二个参数为定义哪些字段展和禁止返回的，例子的信息是 "_id"字段不返回，"qty": 字段返回 |
 
 __注意：__
 > skip(), limilt(), sort()三个放在一起执行的时候，执行的顺序是先 sort(), 然后是 skip()，最后是显示的 limit()。
