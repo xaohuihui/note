@@ -1,5 +1,7 @@
 # note
 
+### 博客地址 https://blog.51cto.com/14612701
+
 ### 算法日常
  - #### 链表 [题目源码](https://github.com/xaohuihui/algorithm_study/tree/master/linked)
    * [1.反转链表](算法日常/反转链表.md)
@@ -22,8 +24,8 @@
   * [9. flask sqlalchemy创建联合索引](flask%20sqlalchemy创建联合索引.md)
   * [10. flask 项目运行](flask%20项目运行.md)
   * [11. python操作日期和时间的方法](python操作日期和时间的方法.md)
-  * [12. literal_eval将字符串转化为字典.md](将字符串转化为字典.md)
-  * [13. 爬虫sn.md](爬虫sn.md)
+  * [12. literal_eval将字符串转化为字典](将字符串转化为字典.md)
+  * [13. 爬虫sn](爬虫sn.md)
 
 ### 数据库
 - #### postgresql
@@ -34,6 +36,8 @@
   * [5.更新postgresql自增id](更新postgresql自增id.md)
 - #### mongoDB
   * [1. mongodb加快查询速度](mongodb加快查询速度.md)
+- #### mysql
+  * [1.MySQL之--一条更新的SQL如何执行](MySQL执行SQL日志记录.md)
 
 ### Linux
  * [1. centos7安装postgresql](centos7安装postgresql.md)
@@ -41,3 +45,7 @@
 * [3.linux查询端口是否被占用](linux查询端口是否被占用.md)
 * [4.搭建autofs，挂载Samba](搭建autofs，挂载Samba.md)
 * [5.Ubuntu安装Libreoffice和文件转码问题](Ubuntu安装Libreoffice和文件转码问题.md)
+
+
+###  Logstash & Elastic Search & PostgreSQL
+  * [1. PostgreSQL中表数据，通过logstash-jdbc，同步到elastic search](pg中数据通过logstash-jdbc同步到ES.md)
