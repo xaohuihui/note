@@ -74,3 +74,4 @@ services/logstash-json/logs/*
 website-dev.env.bak*
 services/website/data/*
 services/website/unit_quote.csv
+xaohuihui_python.md
