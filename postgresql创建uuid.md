@@ -1,6 +1,3 @@
-# web-socssac
-### 安全态势感知预警通报平台-互联网项目。 主要包括上层服务代理、用户角色管理、权限控制等。
-
 ### 数据库配置
 #### 1.UUID配置项
 在sqlalchemy中postgresql的uuid类型对象是： sqlalchemy.dialects.postgresql.UUID, 所以基本的用法是：
