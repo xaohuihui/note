@@ -26,6 +26,7 @@
   * [11. python操作日期和时间的方法](python操作日期和时间的方法.md)
   * [12. literal_eval将字符串转化为字典](将字符串转化为字典.md)
   * [13. 爬虫sn](爬虫sn.md)
+  * [14. celery使用过程中的内存泄露问题和解决办法](celery使用中产生的内存泄露问题.md)
 
 ### 数据库
 - #### postgresql
@@ -44,10 +45,11 @@
 ### Linux
  * [1. centos7安装postgresql](centos7安装postgresql.md)
  * [2. docker安装chrome用来自动化测试](docker安装chrome用来自动化测试.md)
-* [3.linux查询端口是否被占用](linux查询端口是否被占用.md)
-* [4.搭建autofs，挂载Samba](搭建autofs，挂载Samba.md)
-* [5.Ubuntu安装Libreoffice和文件转码问题](Ubuntu安装Libreoffice和文件转码问题.md)
-
+ * [3.linux查询端口是否被占用](linux查询端口是否被占用.md)
+ * [4.搭建autofs，挂载Samba](搭建autofs，挂载Samba.md)
+ * [5.Ubuntu安装Libreoffice和文件转码问题](Ubuntu安装Libreoffice和文件转码问题.md)
+ * [6. docker使用小技巧](docker使用小技巧.md)
+ * [7.docker-compose使用小技巧](docker-compose使用小技巧.md)
 
 ### 系统对接篇
   * [1.前后端分离项目对接sso单点登录系统流程](sso前后端分离.md)
