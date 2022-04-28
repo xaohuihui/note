@@ -35,13 +35,20 @@
   * [3.postgresql创建uuid](postgresql创建uuid.md)
   * [4.postgresql 数据库简单备份恢复](postgresql%20数据库简单备份恢复.md)
   * [5.更新postgresql自增id](更新postgresql自增id.md)
+  
 - #### mongoDB
   * [1. mongodb加快查询速度](mongodb加快查询速度.md)
+  
 - #### mysql
   * [1.MySQL之--一条更新的SQL如何执行](MySQL执行SQL日志记录.md)
+  
 - #### ElasticSearch
   * [1.【最佳实践示例】Logstash JDBC实现ElasticSearch与关系型数据库Postgre ](pg中数据通过logstash-jdbc同步到ES.md)
   * [2.记一次ES偶发性查询慢的问题](记一次ES偶发性查询慢的问题.md)
+  
+- #### ClickHouse
+
+  * [1.ClickHouse 知识总结与实例分享](ClickHouse简单总结与实例分享.md)
 
 ### Linux
  * [1. centos7安装postgresql](centos7安装postgresql.md)
