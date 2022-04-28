@@ -41,6 +41,7 @@
   * [1.MySQL之--一条更新的SQL如何执行](MySQL执行SQL日志记录.md)
 - #### ElasticSearch
   * [1.【最佳实践示例】Logstash JDBC实现ElasticSearch与关系型数据库Postgre ](pg中数据通过logstash-jdbc同步到ES.md)
+  * [2.记一次ES偶发性查询慢的问题](记一次ES偶发性查询慢的问题.md)
 
 ### Linux
  * [1. centos7安装postgresql](centos7安装postgresql.md)
