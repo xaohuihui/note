@@ -49,6 +49,7 @@
 - #### ClickHouse
 
   * [1.ClickHouse 知识总结与实例分享](ClickHouse简单总结与实例分享.md)
+  * [2.ClickHouse 存储结构](ClickHouse 存储结构.md)
 
 ### Linux
  * [1. centos7安装postgresql](centos7安装postgresql.md)
