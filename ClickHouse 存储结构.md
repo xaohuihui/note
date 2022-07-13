@@ -30,7 +30,7 @@
 
 以下是MergeTree大多的存储结构，在使用某些特殊功能还会生成其他的文件，如使用ttl会多生成一个ttl.txt文件
 
-![image-20220511162532098](C:\Users\songyanhui\Desktop\workspace\note\image\ClickHouse2-MergeTree存储结构.png)
+![image-20220511162532098](image/ClickHouse2-MergeTree存储结构.png)
 
 打开ClickHouse对应table的文件件，会发现有一些不同的分区，MergeTree的分区规则如下介绍
 
@@ -46,11 +46,11 @@
 
 常用分区字段类型
 
-![image-20220511162809066](image\ClickHouse2-分区规则.png)
+![image-20220511162809066](image/ClickHouse2-分区规则.png)
 
 分区合并规则示例
 
-![image-20220511163357939](image\ClickHouse2-分区合并实例.png)
+![image-20220511163357939](image/ClickHouse2-分区合并实例.png)
 
 #### MergeTree数据TTL（也是发生在合并分区的时候）
 
@@ -96,7 +96,7 @@ ttl format version: 1
 - table用户保存表级别TTL信息
 - min和max保存了当前数据分区内，TTL指定日期字段的最大值、最小值，分别与INTERVAL表达式计算后的得时间戳，如下图table级别的ttl的min和max的执行结果，table TTL表达式create_time + INTERVAL 1 DAY
 
-![image-20220511160530602](image\clickhouse2-查询001.png)
+![image-20220511160530602](image/clickhouse2-查询001.png)
 
 知道了TTL信息记录方式，大致处理逻辑如下：
 
